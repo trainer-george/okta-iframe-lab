@@ -1,12 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <title>Login Form</title>
+  <style>
+    body { font-family: sans-serif; }
+    .form-input { margin-bottom: 10px; padding: 5px; }
+  </style>
+</head>
 <body>
-  <h3>Login Form</h3>
+  <h3>Secure Login Portal</h3>
   <form onsubmit="return false;">
-    Username:<br>
-    <input type="text" id="username"><br><br>
-    Password:<br>
-    <input type="password" id="password"><br><br>
+    <label for="user_login_field">Username:</label><br>
+    <input type="text" id="user_login_field" name="username" class="form-input"><br>
+    <label for="user_password_field">Password:</label><br>
+    <input type="password" id="user_password_field" name="password" class="form-input"><br><br>
     <input type="button" value="Login" onclick="alert('Success! The Login button was clicked.');">
   </form>
 </body>
