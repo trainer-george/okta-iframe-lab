@@ -2,12 +2,25 @@
 <html lang="en">
 <head>
   <title>Main Page</title>
-  <style> body { font-family: sans-serif; } </style>
+  <style>
+    /* Basic styling for the page */
+    body {
+      font-family: sans-serif;
+      /* Use Flexbox to center content */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Make the body take up the full viewport height */
+      margin: 0;
+      text-align: center; /* Center the text */
+    }
+  </style>
 </head>
 <body>
   <h1>Main Application Page</h1>
   <p>Please log in using the secure form below:</p>
-  <iframe src="https://trainer-george.github.io/okta-iframe-lab/login.html" width="600" height="400" style="border:1px solid black;">
+  <iframe src="https://trainer-george.github.io/okta-iframe-lab/login.html" width="600" height="250" style="border:1px solid black;">
   </iframe>
 </body>
 </html>
